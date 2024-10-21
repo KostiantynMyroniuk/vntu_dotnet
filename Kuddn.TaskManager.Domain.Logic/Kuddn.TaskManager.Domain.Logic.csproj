@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kuddn.TaskManager.DataAccess.Abstractions\Kuddn.TaskManager.DataAccess.Abstractions.csproj" />
+    <ProjectReference Include="..\Kuddn.TaskManager.DataAccess\Kuddn.TaskManager.DataAccess.csproj" />
+    <ProjectReference Include="..\Kuddn.TaskManager.Domain.Models\Kuddn.TaskManager.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>

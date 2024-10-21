@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kuddn.TaskManager.ConsoleRunner", "Kuddn.TaskManager.ConsoleRunner\Kuddn.TaskManager.ConsoleRunner.csproj", "{20CF73AB-D246-4E76-8863-CC8CE8D2D8EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kuddn.TaskManager.Domain.Models", "Kuddn.TaskManager.Domain.Models\Kuddn.TaskManager.Domain.Models.csproj", "{CA80FECF-0E79-4CB4-81AD-A11216513A0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kuddn.TaskManager.Domain.Logic", "Kuddn.TaskManager.Domain.Logic\Kuddn.TaskManager.Domain.Logic.csproj", "{FFA0DE7D-2BF6-4FF3-93A7-1234B0B525DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kuddn.TaskManager.DataAccess.Abstractions", "Kuddn.TaskManager.DataAccess.Abstractions\Kuddn.TaskManager.DataAccess.Abstractions.csproj", "{1BDB4AE3-B438-4D2B-B9F0-DDFCFCB19FB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kuddn.TaskManager.DataAccess", "Kuddn.TaskManager.DataAccess\Kuddn.TaskManager.DataAccess.csproj", "{0AA13524-3C82-47DE-8CA5-61F25C40F09E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF37CDE4-8096-43FE-BF52-D5D6067F66B1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		work-items.json = work-items.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{10159911-3141-474D-9DE4-64DCF0621D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B7D674EB-2A62-46A8-A43C-754599885384}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Run", "Run", "{B8DC9645-6CEA-42E0-898C-42A8144BB140}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4D5FCB13-7EA1-45F0-9F5D-14DB04461D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuddn.TaskManager.Domain.Logic.Tests", "Kuddn.TaskManager.Domain.Logic.Tests\Kuddn.TaskManager.Domain.Logic.Tests.csproj", "{4DEE0AF1-EDB7-465B-8FE7-2F83C079EAA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20CF73AB-D246-4E76-8863-CC8CE8D2D8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CF73AB-D246-4E76-8863-CC8CE8D2D8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CF73AB-D246-4E76-8863-CC8CE8D2D8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CF73AB-D246-4E76-8863-CC8CE8D2D8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA80FECF-0E79-4CB4-81AD-A11216513A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA80FECF-0E79-4CB4-81AD-A11216513A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA80FECF-0E79-4CB4-81AD-A11216513A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA80FECF-0E79-4CB4-81AD-A11216513A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA0DE7D-2BF6-4FF3-93A7-1234B0B525DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA0DE7D-2BF6-4FF3-93A7-1234B0B525DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA0DE7D-2BF6-4FF3-93A7-1234B0B525DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA0DE7D-2BF6-4FF3-93A7-1234B0B525DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDB4AE3-B438-4D2B-B9F0-DDFCFCB19FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDB4AE3-B438-4D2B-B9F0-DDFCFCB19FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDB4AE3-B438-4D2B-B9F0-DDFCFCB19FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDB4AE3-B438-4D2B-B9F0-DDFCFCB19FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA13524-3C82-47DE-8CA5-61F25C40F09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA13524-3C82-47DE-8CA5-61F25C40F09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA13524-3C82-47DE-8CA5-61F25C40F09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA13524-3C82-47DE-8CA5-61F25C40F09E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEE0AF1-EDB7-465B-8FE7-2F83C079EAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEE0AF1-EDB7-465B-8FE7-2F83C079EAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEE0AF1-EDB7-465B-8FE7-2F83C079EAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEE0AF1-EDB7-465B-8FE7-2F83C079EAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20CF73AB-D246-4E76-8863-CC8CE8D2D8EC} = {B8DC9645-6CEA-42E0-898C-42A8144BB140}
+		{CA80FECF-0E79-4CB4-81AD-A11216513A0B} = {B7D674EB-2A62-46A8-A43C-754599885384}
+		{FFA0DE7D-2BF6-4FF3-93A7-1234B0B525DB} = {B7D674EB-2A62-46A8-A43C-754599885384}
+		{1BDB4AE3-B438-4D2B-B9F0-DDFCFCB19FB7} = {10159911-3141-474D-9DE4-64DCF0621D2D}
+		{0AA13524-3C82-47DE-8CA5-61F25C40F09E} = {10159911-3141-474D-9DE4-64DCF0621D2D}
+		{4D5FCB13-7EA1-45F0-9F5D-14DB04461D49} = {B7D674EB-2A62-46A8-A43C-754599885384}
+		{4DEE0AF1-EDB7-465B-8FE7-2F83C079EAA6} = {4D5FCB13-7EA1-45F0-9F5D-14DB04461D49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B175B159-F014-4F05-8660-2E284368DCAB}
+	EndGlobalSection
+EndGlobal
